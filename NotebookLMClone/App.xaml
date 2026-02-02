@@ -1,0 +1,15 @@
+<Application x:Class="NotebookLMClone.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">#2B5FFF</Color>
+            <Color x:Key="BackgroundColor">#F6F7FB</Color>
+            <Color x:Key="SurfaceColor">#FFFFFF</Color>
+            <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}" />
+            <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}" />
+            <SolidColorBrush x:Key="SurfaceBrush" Color="{StaticResource SurfaceColor}" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
